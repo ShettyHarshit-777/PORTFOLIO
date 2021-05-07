@@ -1,33 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{background-color: slategray;}
 nav{
-  padding: o 20px;
+  width: 100%;
+  height: 146px;
+  background-color: steelblue;
+  line-height:75px;
+  padding: 0 1px;
+  position: fixed;
+  color: black;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius:1rem ;
 }
-ul{
-  width: auto;
-  margin: 0;
-  padding:0;
-  list-style: none;
-  height :36px;
- background-color:#000;
- font-family: Arial, Helvetica, sans-serif;
-font-size: 15px;
-
+.nav.name{
+  font-size: 500px;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
-
-
-li{
+.nav.name{
   float: left;
-  border-right: 1px solid #156ee2;
+  color:rgb(14, 10, 10);
+  text-transform: uppercase;
 }
-a{
-  display: block;color: rgb(255, 255, 255);
-  padding: 0 25px;
-  text-decoration:none ;
-  line-height: 36px;
-
+nav ul{
+  text-align: right;
+}
+nav ul li{
+  display:inline-block;
+  list-style: none;
+} 
+nav ul li a{
+  color:white;
+  text-decoration: none;
+  font-size: 18px;
+text-transform: lowercase;
+padding:0px 32px;
 }
 a:hover{
-  background-color: crimson;
+  background-color:black;
 }
-.active a{
-  background-color: grey ;
+.nav ul li a.active a{
+  background-color:black ;
+  font-weight: 700;
+}
+picture{
+  margin-top: 200px;
+}
+.img{
+  margin-inline: 600px;
+}
+.img.picture{
+  border-radius: 50%;
+}
+
+header h3{
+  padding-left: 500px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-size: bold ;
+  color: black;
+  text-align: center;
+}
+section{
+  padding: 2rem 0;
+}
+section h2{
+  text-align: center;
+  font-weight: 700;
+  font-display: none;
+}
+
+h3{
+  margin-right: 500px;
+  margin-top: 2rem;
 }
